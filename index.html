@@ -9,20 +9,55 @@
 <body>
    <H1>Survey Form</H1>
    <table>
-    <form>
-        <tr>
-            <th><label>Name</label></th>
-            <td><input type="text" placeholder="Enter your name"></td>
-        </tr>
-        <tr>
-            <th><label>Course</label></th>
-            <td><input type="text" placeholder="Enter your course"></td>
-        </tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
-    </form>
+     <form>
+         <tr>
+             <th><label>Name</label></th>
+             <td><input type="text" placeholder="Enter your name"></td>
+         </tr>
+         <tr>
+             <th><label>Course</label></th>
+             <td>
+                 <input type="checkbox">X<sup>th</sup>
+                 <input type="checkbox">XII<sup>th</sup>
+                 <input type="checkbox">UG
+                 <input type="checkbox">PG
+                 <input type="checkbox">PHD
+             </td>
+         </tr>
+         <tr>
+            <th><label>E-Mail Address</label></th>
+            <td><input type="email" placeholder="Enter your email id"></td>
+         </tr>
+         <tr>
+            <th><label>Phone Number</label></th>
+            <td><input type="number" placeholder="Enter your phone number"></td>
+         </tr>
+         <tr>
+            <th><label>Gender</label></th>
+            <td>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </td>
+         </tr>
+         <tr>
+            <th><label>City</label></th>
+            <td>
+                <select>
+                    <option>None</option>
+                    <option>Delhi</option>
+                    <option>Mumbai</option>
+                    <option>Bangalore</option>
+                    <option>Chennai</option>
+                    <option>Kolkata</option>
+                    <option>Hyderabad</option>
+                </select>
+            </td>
+         </tr>
+         <tr>
+            <th><label>Survey Question</label></th>
+            <td><textarea cols="30" rows="10" placeholder="Enter your Answer"></textarea></td>
+         </tr>
+     </form>
    </table> 
 </body>
 </html>
